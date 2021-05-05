@@ -1,0 +1,22 @@
+.main-nav-big-container{
+    display: flex;
+    background-color: aqua;
+    height: 40px;
+    align-items: center;
+    .brand{
+        padding-left: 24px;
+        flex: 1;
+    }
+    .main-nav-content{
+        display: flex;
+        flex-direction: row;
+        padding-right: 24px;
+        list-style: none;
+        li{
+            padding-right: 16px;
+            &:last-child{
+                padding-right: 0;
+            }
+        }
+    }
+}
